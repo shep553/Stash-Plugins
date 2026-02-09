@@ -1,0 +1,10 @@
+name:  Studio Overlay Move
+description: Redesigns the scene card.
+version: 1.0
+ui:
+    javascript:
+        -  Studio Overlay Move.js
+    css:
+        -  Studio Overlay Move.css
+    assets:
+        /: .
