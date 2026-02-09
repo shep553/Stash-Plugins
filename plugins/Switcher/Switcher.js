@@ -6,12 +6,12 @@
     const CONFIG = {
         dirs: {
             themes: '/custom/assets/themes/',
-            coloris: '/custom/assets/coloris/',
+            coloris: '/custom/coloris/',
             snippets: '/custom/assets/snippets/'
         },
         files: {
-            colorisCss: '/custom/assets/coloris/coloris.min.css',
-            colorisJs: '/custom/assets/coloris/coloris.min.js',
+            colorisCss: '/custom/coloris/coloris.min.css',
+            colorisJs: '/custom/coloris/coloris.min.js',
             snippetsJson: '/custom/assets/snippets/snippets.json',
             themesJson: '/custom/assets/themes/themes.json',           // NEW: theme families
             colorSchemesJson: '/custom/assets/themes/color-schemes.json'  // NEW: nested color schemes
