@@ -11,3 +11,8 @@
 .performer-card:not(:has(.rating-inline)) .performer-card-image {
 	filter: none;
 }
+/*gets rid of white fringe at corners*/
+.performer-card .thumbnail-section::before,
+.performer-card .thumbnail-section::after {
+	border: 3px var(--card) solid !important;
+}
